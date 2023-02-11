@@ -1,0 +1,88 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{   
+    margin: 0;
+    padding: 0;
+}/*0 for all the elements*/
+
+nav
+{
+    height:90px;
+    background-color: black;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    color: white;
+}
+
+.brand img{
+    height:40px;
+    padding: 0 20px;
+}
+.brand{
+    display: flex;
+    font-weight: bolder;
+}
+nav ul li {
+    padding: 20px 20px;
+    margin-top:20px;
+}
+
+.main_container{
+    background-color: brown;
+    border-radius: 35px;
+    min-height:58vh;
+    width:40%;
+    margin: 20px auto; /*remember this (auto) as it puts the div to the center*/
+    padding:20px; /*to set the content inward*/
+}
+.main_container h3{
+    color:white;
+}
+.container{
+    background-color: rgb(130, 238, 152);
+}
+.bottom{
+    background-color: black;
+    height:100px;
+    bottom:0;
+    position:sticky;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+#myProgressBar{
+    width:80%;/*to set the progress bar in center - text-align centre isn;t working so we made the divi.e. bottom as flex then two more properties to the centre*/
+    cursor:pointer;
+}
+.controls{
+    margin-top: 20px;
+}
+.controls i{
+    cursor:pointer;
+}
+
+.song1{
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items:center;
+    height:40px;
+}
+.song1 img{
+    width:30px;
+    height:30px;
+    margin-left: 10px;
+    margin-top:5px;
+    border-radius: 30px;
+}
+.time i{
+    cursor:pointer;
+}
+
+

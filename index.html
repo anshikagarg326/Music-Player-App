@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player - Your fav music is here</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="Music">Music</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="main_container">
+            <h3>Best of Neha Kakkar</h3>
+            <div class="songitemlist">
+                <div class="song1">
+                    <img src="/covers/1.jpg" alt="1">
+                    <span>Ae Dil Hai Mushkil</span>
+                    <span>5:34</span>
+                    <i class="smallPlay fa-solid fa-play" id="1" title="Play"></i>
+                </div>&nbsp
+                <div class="song1">
+                    <img src="/covers/2.jpg" alt="1">
+                    <span>Koi Mil Gaya</span>
+                    <span>5:34</span>
+                    <i class="smallPlay fa-solid fa-play" id="2" title="Play"></i>
+                </div>&nbsp
+                <div class="song1">
+                    <img src="/covers/3.jpg" alt="1">
+                    <span>Kuch Kuch hota hai</span>
+                    <span>5:34</span>
+                    <i class="smallPlay fa-solid fa-play" id="3" title="Play"></i>
+                </div>&nbsp
+                <div class="song1">
+                    <img src="/covers/4.jpg" alt="1">
+                    <span>Apne</span>
+                    <span>5:34</span>
+                    <i class="smallPlay fa-solid fa-play" id="4" title="Play"></i>
+                </div>&nbsp
+                <div class="song1">
+                    <img src="/covers/5.jpg" alt="1">
+                    <span>Aisa Kyun Hota Hai</span>
+                    <span>5:34</span>
+                    <i class="smallPlay fa-solid fa-play" id="5" title="Play"></i>
+                </div>&nbsp
+                <div class="song1">
+                    <img src="/covers/6.jpg" alt="1">
+                    <span>Kahani Suno</span>
+                    <span>5:34</span>
+                    <i class="smallPlay fa-solid fa-play" id="6" title="Play"></i>
+                </div>
+            </div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="myProgressBar" name="range" min="0" max="100" value="0"> 
+        <div class="controls">
+                <i class="fa-solid fa-backward" id="prev" title="Previous"></i>&nbsp
+                <i class="fa-solid fa-play" id="mainPlay" title="Play"></i>&nbsp
+                <i class="fa-solid fa-forward" id="next" title="Next"></i>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
